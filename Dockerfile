@@ -1,4 +1,4 @@
-FROM fedora
+FROM fedora:29
 MAINTAINER Bhavik Bhavsar (9.bhavik@gmail.com)
 RUN dnf install -y rpm rpm-build python-pip gcc wget git libffi-devel redhat-rpm-config python-devel\
     openssl-devel && dnf clean all
